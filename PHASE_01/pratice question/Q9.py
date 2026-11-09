@@ -1,0 +1,32 @@
+print("====set=====")
+names = {"pushpa", "sita", "gita"}
+print(names)
+print("=====empty set=====")
+a=set()
+b={}
+print(type(a))
+print(type(b))
+print("=====methods of set=====")
+numbers={1,2,3,4,5}
+print(numbers.add(6))
+print(numbers.remove(3))
+print(numbers.discard(4))
+print(numbers.pop())
+print(numbers.clear())
+print(numbers.union({7,8,9}))
+print(numbers.intersection({2,3,4}))
+print(numbers.difference({1,2,3}))
+print(numbers.issubset({1,2,3,4,5}))
+print(numbers.issuperset({1,2,3}))
+print(numbers.isdisjoint({6,7,8}))
+print(numbers.copy())
+print(numbers.symmetric_difference({2,3,4}))
+print(numbers.update({7,8,9}))
+print("====set operators=====")
+a={1,2,3,4}
+b={3,4,5,6}
+print(a|b)
+print(a&b)
+print(a-b)
+print(a^b)
+print(a.issubset(b))

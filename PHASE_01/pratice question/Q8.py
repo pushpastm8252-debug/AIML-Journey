@@ -1,0 +1,22 @@
+print("====tuples=====")
+student = ("Pushpa", 20, "CSE")
+
+print(student)
+print(type(student))
+print("====accessing tuple elements=====")
+numbers = (1, 2, 3, 4, 5)
+print(numbers[0])
+print(numbers[-1])
+print("====tuple methods=====")
+numbers=(10,20,30,40,50)
+print(numbers.count(20))
+print(numbers.index(30))
+print("====single element tuple=====")
+a=(10,)
+print(type(a))
+print("====unpacking tuples=====")
+student="pushpa",20,"CSE"
+name,age,course=student
+print(name)
+print(age)
+print(course)
